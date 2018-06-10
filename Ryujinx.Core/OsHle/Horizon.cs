@@ -40,6 +40,7 @@ namespace Ryujinx.Core.OsHle
             Allocator = new MemoryAllocator();
 
             HidSharedMem  = new HSharedMem();
+            //HidSharedMem  = new HSharedMem(); 
             FontSharedMem = new HSharedMem();
 
             VsyncEvent = new KEvent();
